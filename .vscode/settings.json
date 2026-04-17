@@ -25,5 +25,6 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact",
         "html": "html",
-    }
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
