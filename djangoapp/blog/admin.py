@@ -65,6 +65,7 @@ class PostAdmin(SummernoteModelAdmin):
     def link(self, obj):
         if not obj.pk:
             return '-'
+            
         url_do_post = obj.get_absolute_url()
         safe_link = mark_safe(
             f'<a target="_blank" href="{url_do_post}">Ver post</a>'
